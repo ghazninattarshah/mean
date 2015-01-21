@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MEAN</title>
+    <script src="/vendor/angular/angular.js" async></script>
+    <script src="/vendor/jquery/dist/jquery.js" async></script>
+    <script src="/vendor/bootstrap/dist/js/bootstrap.js" async></script>
+    <script src="/vendor/angular-ui-router/release/angular-ui-router.js" async></script>
+
+    <script src="/javascripts/angularApp.js" async></script>
+    
+    <link href="/vendor/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+    <style> .glyphicon-thumbs-up {cursor: pointer} </style>
+</head>
+
+<body ng-app="flapperNews">
+   
+   <div class="row">
+       <div class="col-md-6 col-md-offset-3">
+            <ui-view></ui-view>
+       </div>
+    </div>
+</body>
+</html>

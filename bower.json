@@ -1,0 +1,24 @@
+{
+  "name": "bower.js",
+  "version": "1.0.0",
+  "description": "bower config for tweetbot",
+  "main": "bower.js",
+  "moduleType": [
+    "node"
+  ],
+  "authors": [
+    "Ghazni Nattarshah"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.3.9"
+  }
+}

@@ -1,0 +1,5 @@
+.gradle
+node_modules/
+bin/
+npm-debug.log
+public/vendor/*
